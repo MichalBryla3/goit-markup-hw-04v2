@@ -12,6 +12,7 @@
   --third-color: #ffffff;
   --fourth-color: #757575;
   --background-color-second: rgba(47, 48, 58, 1);
+  --icons-clients-colol: #afb1b8;
 }
 * {
   box-sizing: border-box;
@@ -81,6 +82,7 @@ body {
 .contact__date:active {
   color: var(--primary-color);
 }
+
 /* -------------LOGO------------- */
 .logo {
   font-size: 26px;
@@ -145,6 +147,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 94px;
+  background-image: url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .slider__container {
@@ -195,6 +200,11 @@ body {
 .article__text {
   color: var(--fourth-color);
   margin: 0px;
+}
+.article__icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-color);
 }
 
 /* -------------RESPONSIBILITIES------------- */
@@ -263,6 +273,33 @@ body {
   line-height: 1.18;
   text-align: center;
 }
+
+/* -------------CLIENTS------------- */
+.clients {
+  display: flex;
+  justify-content: center;
+}
+
+.clients__container {
+  width: 1200px;
+  margin: 0px 215px;
+  padding-top: 94px;
+}
+
+.clients__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.clients__picture {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icons-clients-colol);
+  border-radius: 4px;
+  fill: var(--icons-clients-colol);
+}
+
 
 /* -------------FILTERS------------- */
 .filters {
