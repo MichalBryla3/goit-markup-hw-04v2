@@ -32,11 +32,26 @@
         <ul class="contact">
           <li>
             <a href="mailto:info@devistudio.com" class="contact__date"
+              ><svg class="contact__icon" id="icon-envelope">
+                <use
+                  xlink:href="./images/icons.svg#icon-envelope"
+                  height="16px"
+                  width="16px"
+                  y="2"
+                ></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+48111111111" class="contact__date">+48 111 111 111</a>
+            <a href="tel:+48111111111" class="contact__date"
+              ><svg class="contact__icon" id="icon-smartphone">
+                <use
+                  xlink:href="./images/icons.svg#icon-smartphone"
+                  height="16px"
+                  width="16px"
+                ></use></svg
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </div>
@@ -197,25 +212,69 @@
     <!---------------FOOTER------------- -->
     <footer class="footer">
       <div class="footer__container">
-        <a class="logo" href="index.html"
-          ><span class="logo__footer--first">Web</span
-          ><span class="logo__footer--second">Studio</span></a
-        >
-        <address class="footer__address">
-          <ul class="footer__list">
-            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a href="mailto:info@example.com" class="footer__contact"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+48111111111" class="footer__contact"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer__container--left">
+          <a class="logo" href="index.html"
+            ><span class="logo__footer--first">Web</span
+            ><span class="logo__footer--second">Studio</span></a
+          >
+          <address class="footer__address">
+            <ul class="footer__list">
+              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a href="mailto:info@example.com" class="footer__contact"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+48111111111" class="footer__contact"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer__container--right">
+          <h3 class="footer__title--social">Dołącz do nas</h3>
+          <div class="footer__social">
+            <a href="#"
+              ><svg class="footer__social-icon" id="icon-instagram">
+                <use
+                  xlink:href="./images/icons.svg#icon-instagram"
+                  width="20px"
+                  height="20px"
+                  x="12px"
+                  y="12px"
+                ></use></svg></a
+            ><a href="#"
+              ><svg class="footer__social-icon" id="icon-twitter">
+                <use
+                  xlink:href="./images/icons.svg#icon-twitter"
+                  width="20px"
+                  height="20px"
+                  x="12px"
+                  y="12px"
+                ></use></svg></a
+            ><a href="#"
+              ><svg class="footer__social-icon" id="icon-facebook">
+                <use
+                  xlink:href="./images/icons.svg#icon-facebook"
+                  width="20px"
+                  height="20px"
+                  x="12px"
+                  y="12px"
+                ></use></svg></a
+            ><a href="#"
+              ><svg class="footer__social-icon" id="icon-linkedin">
+                <use
+                  xlink:href="./images/icons.svg#icon-linkedin"
+                  width="20px"
+                  height="20px"
+                  x="12px"
+                  y="12px"
+                ></use></svg
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
